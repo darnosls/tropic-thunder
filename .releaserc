@@ -1,0 +1,15 @@
+{
+ "branches": [
+   "master",
+   { "name": "homolog", "prerelease": "rc" }
+ ],
+ "plugins": [
+   ["@semantic-release/commit-analyzer", {
+      "releaseRules": [
+        {"message":"*Revert*", "release": "patch"},
+      ]
+    }],
+   "@semantic-release/release-notes-generator",
+   ["@semantic-release/github", {"successComment": false}]
+ ]
+}

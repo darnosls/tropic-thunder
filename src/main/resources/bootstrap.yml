@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: texugo-tshirts
+---
+spring:
+  config:
+    activate:
+      on-profile: local
