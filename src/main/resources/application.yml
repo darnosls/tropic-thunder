@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tropic_thunder_db
+    username: thunder_user
+    password: thunder
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8082
+  servlet:
+    context-path: /tropicthunder/api/v1

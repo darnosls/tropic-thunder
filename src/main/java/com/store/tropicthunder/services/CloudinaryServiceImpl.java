@@ -1,4 +1,4 @@
-package com.store.texugoTshirts.services;
+package com.store.tropicthunder.services;
 
 import com.cloudinary.Cloudinary;
 import jakarta.annotation.Resource;

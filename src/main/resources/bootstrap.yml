@@ -1,6 +1,6 @@
 spring:
   application:
-    name: texugo-tshirts
+    name: tropic-thunder
 ---
 spring:
   config:

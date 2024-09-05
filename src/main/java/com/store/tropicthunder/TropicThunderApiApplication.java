@@ -1,13 +1,13 @@
-package com.store.texugoTshirts;
+package com.store.tropicthunder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TexugoTshirtsApiApplication {
+public class TropicThunderApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TexugoTshirtsApiApplication.class, args);
+		SpringApplication.run(TropicThunderApiApplication.class, args);
 	}
 
 }

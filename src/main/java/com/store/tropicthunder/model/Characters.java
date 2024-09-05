@@ -1,4 +1,4 @@
-package com.store.texugoTshirts.model;
+package com.store.tropicthunder.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,14 +8,12 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Product {
+public class Characters {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String title;
-    private Long price;
-    private String category;
+    private String name;
+    private Long age;
     private String description;
-    private String image;
 }
